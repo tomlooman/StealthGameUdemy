@@ -1,8 +1,10 @@
-# Stealth Game - Unreal Engine 4 C++ Udemy Course by Tom Looman
+# Stealth Game - Unreal Engine 4 C++ Udemy Course
 
 Contains project files for Unreal Engine 4 C++ Stealth Game as part of Udemy Course: **'Unreal Engine 4 Mastery: Create Multiplayer Games with C++'**
 
-Get the Udemy Course now and learn C++ for Unreal Engine 4: <UDEMY URL>
+**Looking for a step by step guide?** I released my **[Unreal Engine 4 Mastery: Create Multiplayer Games with C++](https://www.udemy.com/unrealengine-cpp/?couponCode=TLGH14)!** Which includes two games teaching you C++, Networking for multiplayer and multiple AI including advanced behavior trees for ranged shooter AI.
+
+Get the Udemy Course now and learn C++ for Unreal Engine 4: [DISCOUNT LINK](https://www.udemy.com/unrealengine-cpp/?couponCode=TLGH14)
 
 **Created with Unreal Engine 4.18**
 
@@ -25,6 +27,6 @@ Includes solutions to several challenges you create during the Udemy Course:
 
 Based on my simplified FPS Template: https://github.com/tomlooman/SimpleFPSTemplate
 
-Udemy Course Link: <UDEMY URL>
+Udemy Course Link: [DISCOUNT LINK](https://www.udemy.com/unrealengine-cpp/?couponCode=TLGH14)
 
 (Content in this project may only be used in Unreal Engine projects as per the Unreal Engine EULA)
