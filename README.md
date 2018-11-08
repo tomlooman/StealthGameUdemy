@@ -8,7 +8,7 @@ Get the Udemy Course now and learn C++ for Unreal Engine 4: [DISCOUNT LINK](http
 
 **Created with Unreal Engine 4.18**
 
-Check the "Branches" dropdown on GitHub for all supported Unreal Engine Versions! (Supported: 4.18, 4.19)
+Check the "Branches" dropdown on GitHub for all supported Unreal Engine Versions! **(Supports: 4.18, 4.19)**
 
 ![alt text](http://www.tomlooman.com/wp-content/uploads/2017/12/Thumb_MainUE4Course30_header.jpg)
 
