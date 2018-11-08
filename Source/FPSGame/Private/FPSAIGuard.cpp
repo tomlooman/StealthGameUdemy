@@ -5,7 +5,7 @@
 #include "DrawDebugHelpers.h"
 #include "FPSGameMode.h"
 #include "Net/UnrealNetwork.h"
-#include "AI/Navigation/NavigationSystem.h"
+#include "Blueprint/AIBlueprintHelperLibrary.h"
 
 
 // Sets default values
@@ -161,7 +161,7 @@ void AFPSAIGuard::MoveToNextPatrolPoint()
 		CurrentPatrolPoint = SecondPatrolPoint;
 	}
 
-	UNavigationSystem::SimpleMoveToActor(GetController(), CurrentPatrolPoint);
+	UAIBlueprintHelperLibrary::SimpleMoveToActor(GetController(), CurrentPatrolPoint);
 }
 
 
