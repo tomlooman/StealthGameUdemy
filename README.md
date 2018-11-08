@@ -6,9 +6,9 @@ Contains project files for Unreal Engine 4 C++ Stealth Game as part of Udemy Cou
 
 Get the Udemy Course now and learn C++ for Unreal Engine 4: [DISCOUNT LINK](https://www.udemy.com/unrealengine-cpp/?couponCode=TLGH14)
 
-**Created with Unreal Engine 4.18**
+**Originally created with Unreal Engine 4.18**
 
-Check the "Branches" dropdown on GitHub for all supported Unreal Engine Versions! **(Supports: 4.18, 4.19)**
+**Important:** Check the "Branches" dropdown on GitHub for all supported Unreal Engine Versions! **(Supports: 4.18, 4.19, 4.20)**
 
 ![alt text](http://www.tomlooman.com/wp-content/uploads/2017/12/Thumb_MainUE4Course30_header.jpg)
 
