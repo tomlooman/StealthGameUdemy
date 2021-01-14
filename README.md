@@ -1,8 +1,10 @@
-# Stealth Game - Unreal Engine 4 C++ Udemy Course
+# Stealth Game - Unreal Engine 4 C++ Udemy Course [Project 1]
 
-Contains finished project for "Stealth Game" as part of Udemy Course: **'Unreal Engine 4 Mastery: Create Multiplayer Games with C++'**
+Contains finished project for "Stealth Game" as part of the Udemy Course: **[Unreal Engine 4 Mastery: Create Multiplayer Games with C++](https://www.udemy.com/unrealengine-cpp/?couponCode=TLGH14)**
 
 **Important:** Check the "Branches" dropdown on GitHub for all supported Unreal Engine Versions 4.25+!**
+
+![GitHub Branch Selection Info](https://www.tomlooman.com/wp-content/uploads/2021/01/github_branchesinfo.jpg)
 
 ![alt text](http://www.tomlooman.com/wp-content/uploads/2017/12/Thumb_MainUE4Course30_header.jpg)
 
