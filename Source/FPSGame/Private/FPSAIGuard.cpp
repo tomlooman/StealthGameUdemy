@@ -5,7 +5,7 @@
 #include "DrawDebugHelpers.h"
 #include "FPSGameMode.h"
 #include "Net/UnrealNetwork.h"
-#include "AI/Navigation/NavigationSystem.h"
+#include "Blueprint/AIBlueprintHelperLibrary.h"
 
 
 // Sets default values
@@ -53,7 +53,6 @@ void AFPSAIGuard::OnPawnSeen(APawn* SeenPawn)
 	SetGuardState(EAIState::Alerted);
 
 	// Stop Movement if Patrolling
-	AController* Controller = GetController();
 	if (Controller)
 	{
 		Controller->StopMovement();
@@ -85,7 +84,6 @@ void AFPSAIGuard::OnNoiseHeard(APawn* NoiseInstigator, const FVector& Location, 
 	SetGuardState(EAIState::Suspicious);
 
 	// Stop Movement if Patrolling
-	AController* Controller = GetController();
 	if (Controller)
 	{
 		Controller->StopMovement();
@@ -141,8 +139,12 @@ void AFPSAIGuard::Tick(float DeltaTime)
 		FVector Delta = GetActorLocation() - CurrentPatrolPoint->GetActorLocation();
 		float DistanceToGoal = Delta.Size();
 
-		// Check if we are within 50 units of our goal, if so - pick a new patrol point
-		if (DistanceToGoal < 50)
+		// Check if we are within 75 units of our goal, if so - pick a new patrol point
+		// Keep in mind this includes vertical height difference! If your patrol point is in the floor, the distance to the pivot of guard is higher
+		// In that case you may need to increase this value in your project or better align control points (ideally you remove Z axis all together by using
+		// Alternative: float DistanceToGoal = FMath::Distance2D(GetActorLocation(), CurrentPatrolPoint->GetActorLocation());
+
+		if (DistanceToGoal < 75)
 		{
 			MoveToNextPatrolPoint();
 		}
@@ -161,7 +163,7 @@ void AFPSAIGuard::MoveToNextPatrolPoint()
 		CurrentPatrolPoint = SecondPatrolPoint;
 	}
 
-	UNavigationSystem::SimpleMoveToActor(GetController(), CurrentPatrolPoint);
+	UAIBlueprintHelperLibrary::SimpleMoveToActor(GetController(), CurrentPatrolPoint);
 }
 
 
