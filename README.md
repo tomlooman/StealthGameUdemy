@@ -2,7 +2,7 @@
 
 Contains finished project for "Stealth Game" as part of the Udemy Course: **[Unreal Engine 4 Mastery: Create Multiplayer Games with C++](https://www.udemy.com/unrealengine-cpp/?couponCode=TLGH14)**
 
-**Current Engine Version: 4.25**
+**Current Engine Version: 4.26**
 
 **Important:** Check the "Branches" dropdown on GitHub for all supported Unreal Engine versions**
 
